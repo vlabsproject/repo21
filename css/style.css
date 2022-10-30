@@ -1,0 +1,355 @@
+body{
+    width: 1490px;
+    height: 100vh;
+    overflow: scroll;
+}
+/* .logo{ */
+	/* LOGO*/
+/* position: absolute; */
+/* width: 10px; */
+/* height: 10px; */
+/* left: 13px; */
+/* top: 10px; */
+/* } */
+
+
+.Vlabs{
+	/* VLABS */
+
+
+position: absolute;
+width: 82px;
+height: 28px;
+left: 75px;
+top: 33px;
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.User{
+	/* Udbhav v Kamath */
+
+
+position: absolute;
+width: 222px;
+height: 34px;
+left: 1057px;
+top: 34px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+}
+.Signupbutton{
+	/* Property 1=normal */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 14px;
+gap: 10px;
+
+position: absolute;
+width: 100px;
+height: 32px;
+left: 1274px;
+top: 33px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25);
+border-radius: 6px;
+}
+.Lines{
+
+/* Vector 4 */
+
+position: absolute;
+width: 1940px;
+height: 0px;
+left: -7px;
+top: 84px;
+
+border: 1px solid #000000;
+transform: rotate(0.06deg);
+}
+.Lines2{
+
+
+	/* Vector 4 */
+	
+	
+	position: absolute;
+	width: 1940px;
+	height: 0px;
+	left: -7px;
+	top: 90px;
+	
+	border: 1px solid #000000;
+	transform: rotate(0.06deg);
+	}
+
+h1{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+p{
+    font-size: 25px ;
+}
+ .switchRed{
+     width: 30px;
+     height: 26px;
+     background-color: red;
+     position: absolute;
+     margin-top: 72px;
+     margin-left: 10px;
+     box-shadow: 0 10px 15px 0 rgba(44, 44, 44, 0.4); 
+     border: double;
+ }  
+
+ .led{
+     width: 10px;
+     height: 10px;
+     margin-left:10px;
+     margin-top: 40px;
+     position: absolute;
+
+ }
+ .switchRed p{
+    margin-top: 10px;
+    font-size: 18px;
+ }
+ .led img{
+     width: 50px;
+     height: 40px;
+     border: 1px solid rgb(87, 85, 85);
+     border-radius: 50%;
+     box-shadow: 0 12px 17px 0 rgba(19, 19, 19, 0.4); 
+ }
+
+
+
+
+/*UserInput*/
+
+
+.setup span img{
+	position: absolute;
+	align-content:center;
+	margin-top: 95px;
+	margin-left: 325px;
+	height: 350px;
+} 
+.Instructions{
+	/* Rectangle 96 */
+
+
+position: absolute;
+width: 1453px;
+height: 79px;
+left: 0px;
+top: 596px;
+
+background: linear-gradient(180deg, #2266BB 0%, rgba(50, 131, 234, 0.92) 48.96%, #2266BB 100%);
+border-radius: 14.0304px;
+}
+
+.Graphs1{
+	text-align: center;
+	color: #FFFAFA;
+}
+.Graphs1{
+	/* Rectangle 97 */
+
+
+position: absolute;
+width: 1440px;
+height: 81px;
+left: 0px;
+top: 831px;
+
+background: linear-gradient(180deg, #2266BB 0%, rgba(50, 131, 234, 0.92) 48.96%, #2266BB 100%);
+border-radius: 14.0304px;
+}
+
+
+
+
+
+
+
+
+
+
+.userInput{
+	height: 200px;
+  background: whitesmoke;
+  color: white;
+  padding:0.5px ;
+  border-radius: 5px;
+  /* position:relative; */
+  
+}
+.image{
+	margin-top: 50px;
+	height: 89.5px;
+	align-content: center;
+}
+
+.togglepins span img {
+           width: 40px;
+		   
+		   
+}
+
+.togglepins{
+	margin:auto;
+	text-align: center;
+}
+
+/*Run*/
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Sora:wght@200&display=swap');
+.runButton{
+	 width: 55px;
+     height: 200px;
+      position: absolute;
+      margin-left: 0px; 
+	 margin:auto;
+     top: 400px;
+	background-color: #A7D129;
+	border:4px double #3E2C41;
+    transition: all 0.4s;
+    transition-timing-function:cubic-bezier(0.5, 3, 0, 1);
+
+    font-family:Allan;
+    color: black;
+    font-style: bold;
+}
+.runButton:hover {
+    transform:scale(1.2,1.2);
+}
+
+/*canvas*/
+
+.graphs{
+	height: 550px;
+	background-color:white ;
+	position: relative;
+	top: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#canvasCarrier{
+
+	position: absolute;
+width: 647.64px;
+height: 299.9px;
+left: 44px;
+top: 1096px;
+
+box-shadow: inset -4px -4.78px 4.77922px #3283EA;
+	
+}
+#canvasASK{
+	
+	
+	position: absolute;
+	width: 647.64px;
+	height: 299.9px;
+	left: 735.36px;
+	top: 1096px;
+	
+	box-shadow: inset -4px -4.78px 4.77922px #3283EA;
+}
+#canvasFSK{
+
+	position: absolute;
+width: 647.64px;
+height: 299.9px;
+left: 44px;
+top: 1436.1px;
+
+box-shadow: inset -4px -4.78px 4.77922px #3283EA;
+	
+}
+#canvasDemodulated{
+
+	position: absolute;
+width: 647.64px;
+height: 299.9px;
+left: 735.36px;
+top: 1436.1px;
+
+box-shadow: inset -4px -4.78px 4.77922px #3283EA;
+	
+}
+
+
+/*Instructions*/
+.wrapper{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	/* height: 800px; */
+	border-radius: 20px 20px 0px 0px;
+}
+.topContainer{
+	background: linear-gradient(90deg, rgba(14,89,215,1) 18%, rgba(0,159,255,1) 51%, rgba(50,88,233,1) 81%);
+
+	
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	
+}
+.midContainer1{
+
+	text-align: left;
+	font-size: 30px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+
+	width: 100%;
+	background-color:white;
+	height: 100px;
+	border-radius: 20px;
+	/*float: left;*/
+	font-size: 20px;
+	/*overflow: scroll;*/
+}
+.midContainer2{
+
+	text-align: left;
+	font-size: 30px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+
+	width: 100%;
+	background-color:white;
+	height: 100px;
+	border-radius: 20px;
+	/*float: left;*/
+	font-size: 20px;
+	/*overflow: scroll;*/
+}
+
+
